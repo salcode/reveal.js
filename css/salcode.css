@@ -1,0 +1,27 @@
+/* Slide background image with reduced opacity */
+.reveal .slide-background.background-reduced-opacity {
+	opacity: 0.12;
+}
+
+/* Code Display */
+.reveal .code-label {
+	font-size: 80%;
+	text-align: left;
+	text-transform: none;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+}
+.reveal .code-label + pre {
+	margin-top: 0;
+}
+.reveal pre {
+	width: 100%;
+}
+.reveal pre code {
+	font-size: 135%;
+	line-height: 1.2em;
+	padding: 5px 10px;
+	background-color: #f8f8f8;
+	color: #333;
+}
