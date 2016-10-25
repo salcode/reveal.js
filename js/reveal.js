@@ -1190,6 +1190,7 @@
 			// Auto-wrap image urls in url(...)
 			if( /^(http|file|\/\/)/gi.test( data.background ) || /\.(svg|png|jpg|jpeg|gif|bmp)([?#\s]|$)/gi.test( data.background ) ) {
 				slide.setAttribute( 'data-background-image', data.background );
+				element.className += ' slide-background-image';
 			}
 			else {
 				element.style.background = data.background;
