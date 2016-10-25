@@ -1,8 +1,10 @@
-/* Slide background image with reduced opacity */
-.reveal .slide-background.background-reduced-opacity {
+/* Slide background image defaults to reduced opacity, can be overwritten with `.no-fade` */
+.reveal .slide-background-image.present {
 	opacity: 0.12;
 }
-
+.reveal .slide-background-image.no-fade.present {
+	opacity: 1;
+}
 /* Code Display */
 .reveal .code-label {
 	font-size: 80%;
