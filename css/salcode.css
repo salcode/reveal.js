@@ -27,3 +27,12 @@
 	background-color: #f8f8f8;
 	color: #333;
 }
+
+.reveal table.zebra tr th,
+.reveal table.zebra tr:nth-child(even) td {
+	background-color: #333;
+}
+.reveal table.zebra th,
+.reveal table.zebra td {
+	border-bottom: none;
+}
