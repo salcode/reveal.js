@@ -5,6 +5,15 @@
 .reveal .slide-background-image.no-fade.present {
 	opacity: 1;
 }
+
+/* Slide background image opacity when exporting to PDF, with `?print-pdf` */
+.print-pdf .reveal .slide-background-image {
+	opacity: 0.12 !important;
+}
+.print-pdf .reveal .slide-background-image.no-fade {
+	opacity: 1 !important;
+}
+
 /* Code Display */
 .reveal .code-label {
 	font-size: 80%;
