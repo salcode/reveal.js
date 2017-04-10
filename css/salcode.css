@@ -46,3 +46,10 @@
 .reveal table.zebra td {
 	border-bottom: none;
 }
+
+.reveal .persistant-credit {
+	color: #fff;
+	float: right;
+	margin: 20px 40px;
+	z-index: 2;
+}
