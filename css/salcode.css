@@ -51,5 +51,12 @@
 	color: #fff;
 	float: right;
 	margin: 20px 40px;
+	opacity: 1;
+	transition: opacity 1s;
 	z-index: 2;
 }
+.fe-full-screen-image div.slide-background.present {
+	background-size: contain;
+	opacity: 1;
+}
+.fe-full-screen-image .persistant-credit { opacity: 0; }

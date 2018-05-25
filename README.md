@@ -6,6 +6,9 @@ A framework for easily creating beautiful presentations using HTML. [Check out t
 
 The goal of this fork is to keep it update-to-date with the official reveal.js.  There are a couple of configuration and CSS changes I prefer when using reveal.js and this fork allows me to have them at the ready.  These changes include:
 
+- Ability to create a full screen image with original image ratio (background-size: constrain).
+	- `<section data-background="images/my-image.jpg" data-state="fe-full-screen-image">`
+	- This state also hides the persistant-credit
 - CSS class `zebra` for tables, which display with zebra striping
 - CSS to reduce opacity on background images by default with optional (`.no-fade` class to override)
 - CSS to tweak display of code blocks
