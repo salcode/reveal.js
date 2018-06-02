@@ -55,6 +55,9 @@
 	transition: opacity 1s;
 	z-index: 2;
 }
+.reveal .pull-right { float: right; }
+.reveal .pull-left { float: left; }
+
 .fe-full-screen-image div.slide-background.present {
 	background-size: contain;
 	opacity: 1;
