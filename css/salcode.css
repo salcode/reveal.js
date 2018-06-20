@@ -55,6 +55,9 @@
 	transition: opacity 1s;
 	z-index: 2;
 }
+.print-pdf .reveal .persistant-credit {
+	display: none;
+}
 .reveal .pull-right { float: right; }
 .reveal .pull-left { float: left; }
 
